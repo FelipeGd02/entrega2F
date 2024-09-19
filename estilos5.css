@@ -1,0 +1,78 @@
+ body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: url('./fondo.jpg') no-repeat;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            background-color: rgba(0, 0, 0, 0.8);
+            padding: 1rem 3rem;
+            border-radius: 10px;
+            width: 400px;
+            text-align: center;
+            color: white;
+        }
+        .container h1 {
+            margin-bottom: 20px;
+        }
+        .container h2 {
+            margin-bottom: 20px;
+        }
+        .input-group {
+            margin-bottom: 15px;
+        }
+        .input-group label {
+            display: block;
+            text-align: left;
+            margin-bottom: 5px;
+        }
+        .input-group input {
+            width: calc(100% - 20px);
+            padding: 10px;
+            border-radius: 20px;
+            border: none;
+            outline: none;
+        }
+        .input-group .password-group {
+            position: relative;
+        }
+        .input-group .password-group input {
+            width: calc(100% - 40px);
+        }
+        .input-group .password-group .fa-eye {
+            position: absolute;
+            right: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            cursor: pointer;
+        }
+        .btn {
+            background-color: #ccc;
+            color: black;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 20px;
+            cursor: pointer;
+            width: 100%;
+        }
+        .signin-link {
+            margin-top: 10px;
+        }
+        .signin-link a {
+            color: white;
+            text-decoration: none;
+        }
+        .white-background{
+            padding: 2rem 0;
+            background-image: url('./backgroundPhoto/z2.png');
+            width: 70vw;
+            height: 80vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }

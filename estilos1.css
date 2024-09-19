@@ -1,0 +1,111 @@
+body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            border-bottom: 1px solid #000;
+        }
+        .header .menu-icon, .header .search-icon, .header .cart-icon {
+            font-size: 24px;
+        }
+        .header .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .container {
+            display: flex;
+            padding: 20px;
+        }
+        .sidebar {
+            width: 250px;
+            background-color: #000;
+            color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .sidebar img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            display: block;
+            margin: 0 auto 20px;
+        }
+        .sidebar .user-info {
+            margin-bottom: 20px;
+        }
+        .sidebar .user-info div {
+            margin-bottom: 10px;
+        }
+        .user-info {
+            display: flex;
+            flex-direction: column;
+            gap: .5rem;
+        }
+        .user-info input {
+            padding: .5rem 0;
+            background-color: black;
+            color: white;
+            border: none;
+            border-bottom: 2px solid white !important;
+        }
+        .sidebar .buttons {
+            display: flex;
+            flex-direction: column;
+        }
+        .sidebar .buttons a {
+            background-color: #fff;
+            color: #000;
+            border: none;
+            padding: 10px;
+            margin-bottom: 10px;
+            text-decoration: none;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            cursor: pointer;
+        }
+        .sidebar .buttons button i {
+            margin-left: 10px;
+        }
+        .main-content {
+            flex-grow: 1;
+            padding-left: 20px;
+        }
+        .product {
+            display: inline-block;
+            width: 200px;
+            height:250px;
+            margin: 10px;
+            position: relative;
+        }
+        .product img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .product img:hover {
+
+            filter:grayscale(80%);
+            transform: scale(1.10);
+
+        }
+        .product .status {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: #fff;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .product .description {
+            text-align: center;
+            margin-top: 10px;
+        }

@@ -1,0 +1,78 @@
+body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: url('./fondo.jpg') no-repeat;
+            background-size: cover;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            background: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            width: 400px;
+        }
+        .container h1 {
+            color: white;
+            margin-bottom: 20px;
+        }
+        .container h2 {
+            color: white;
+            margin-bottom: 20px;
+        }
+        .input-group {
+            margin-bottom: 15px;
+        }
+        .input-group input {
+            width: calc(100% - 40px);
+            padding: 10px;
+            border: none;
+            border-radius: 20px;
+            margin-left: 10px;
+        }
+        .input-group i {
+            color: white;
+            margin-right: 10px;
+        }
+        .input-group label {
+            color: white;
+            display: flex;
+            align-items: center;
+        }
+        .options {
+            display: flex;
+            justify-content: space-between;
+            color: white;
+            margin-bottom: 20px;
+        }
+        .options a {
+            color: white;
+            text-decoration: none;
+        }
+        .login-btn {
+            background: #ccc;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 20px;
+            cursor: pointer;
+        }
+        .create-account {
+            color: white;
+            margin-top: 20px;
+        }
+        .create-account a {
+            color: white;
+            text-decoration: none;
+        }
+        .white-background{
+            background-image: url('./backgroundPhoto/z2.png');
+            width: 70vw;
+            height: 80vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
