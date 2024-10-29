@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1,
+    "name": "Dairy",
+    "price": 10,
+    "description": "This is a product 1",
+    "image": "https://m.media-amazon.com/images/I/51PFFBL6CCL._AC_SX679_.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Secret Note",
+    "price": 20,
+    "description": "This is a product 2",
+    "image": "https://i.pinimg.com/550x/07/06/30/070630e0428702aef44766690e834f4b.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Basic Notebooks",
+    "price": 300,
+    "description": "This is a product 3",
+    "image": "https://img.ltwebstatic.com/images3_spmp/2024/03/09/61/1709950606364c606768368c637c8954ef25829fbf_thumbnail_720x.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Mechanical Pencil Set",
+    "price": 5.90,
+    "description": "This is a product 4",
+    "image": "https://i.pinimg.com/736x/6d/99/45/6d99457fd679c9fb21057f31164d104c.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Sakura Micron FineLiners",
+    "price": 20,
+    "description": "This is a product 5",
+    "image": "https://m.media-amazon.com/images/I/71EqdQfcmtL._AC_UF1000,1000_QL80_.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Art pens set",
+    "price": 50,
+    "description": "This is a product 6",
+    "image": "https://i.pinimg.com/736x/da/6c/18/da6c188f502f621939aa964fed2198b2.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Special Edition Black Drawing Pens",
+    "price": 70,
+    "description": "This is a product 7",
+    "image": "https://i.pinimg.com/736x/f6/d0/84/f6d084aa346f264a0944ae0b0ff0a13b.jpg"
+  }
+]
