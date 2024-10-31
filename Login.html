@@ -8,16 +8,17 @@
         <div class="container">
             <h1>WELCOME TO MANÁ</h1>
             <h2>User Login</h2>
+           <form id="formulario">
             <div class="input-group">
                 <label>
                     <i class="fas fa-user"></i>
-                    <input type="text" placeholder="User Name">
+                    <input type="text" placeholder="ingresa tu email" id="email">
                 </label>
             </div>
             <div class="input-group">
                 <label>
                     <i class="fas fa-lock"></i>
-                    <input type="password" placeholder="Password">
+                    <input type="password" placeholder="Password" id="password">
                 </label>
             </div>
             <div class="options">
@@ -26,11 +27,13 @@
                 </label>
                 <a href="#">Forgot password?</a>
             </div>
-            <button class="login-btn">Login</button>
+            <button class="login-btn" type="submit">Login</button>
+           </form>
             <div class="create-account">
                  <a href="./register.html"> To create a new account.Click here</a>
             </div>
         </div>
     </div>
 </body>
+<script src="./components/login.js" type="module"></script>
 </html>
