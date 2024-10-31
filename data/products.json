@@ -3,49 +3,135 @@
     "id": 1,
     "name": "Dairy",
     "price": 10,
-    "description": "This is a product 1",
+    "description": "A creamy, essential everyday product for home or office.",
+    "rating": 4.7,
+    "variants": "Dairy Blue",
     "image": "https://m.media-amazon.com/images/I/51PFFBL6CCL._AC_SX679_.jpg"
   },
   {
     "id": 2,
     "name": "Secret Note",
     "price": 20,
-    "description": "This is a product 2",
+    "description": "Keep your thoughts safe with this classic, secure notebook.",
+    "rating": 3.9,
+    "variants": "Classic White",
     "image": "https://i.pinimg.com/550x/07/06/30/070630e0428702aef44766690e834f4b.jpg"
   },
   {
     "id": 3,
     "name": "Basic Notebooks",
     "price": 300,
-    "description": "This is a product 3",
+    "description": "Perfect for daily notes or creative ideas, with durable binding.",
+    "rating": 4.5,
+    "variants": "Soft Cover",
     "image": "https://img.ltwebstatic.com/images3_spmp/2024/03/09/61/1709950606364c606768368c637c8954ef25829fbf_thumbnail_720x.jpg"
   },
   {
     "id": 4,
     "name": "Mechanical Pencil Set",
     "price": 5.90,
-    "description": "This is a product 4",
+    "description": "Reliable and smooth pencils for detailed work and sketches.",
+    "rating": 4.3,
+    "variants": "Premium Black",
     "image": "https://i.pinimg.com/736x/6d/99/45/6d99457fd679c9fb21057f31164d104c.jpg"
   },
   {
     "id": 5,
     "name": "Sakura Micron FineLiners",
     "price": 20,
-    "description": "This is a product 5",
+    "description": "Professional fine liners with sharp, consistent ink flow.",
+    "rating": 4.8,
+    "variants": "Fine Tip",
     "image": "https://m.media-amazon.com/images/I/71EqdQfcmtL._AC_UF1000,1000_QL80_.jpg"
   },
   {
     "id": 6,
     "name": "Art pens set",
     "price": 50,
-    "description": "This is a product 6",
+    "description": "A vibrant collection for artists, from sketching to shading.",
+    "rating": 4.2,
+    "variants": "Assorted Colors",
     "image": "https://i.pinimg.com/736x/da/6c/18/da6c188f502f621939aa964fed2198b2.jpg"
   },
   {
     "id": 7,
     "name": "Special Edition Black Drawing Pens",
     "price": 70,
-    "description": "This is a product 7",
+    "description": "High-quality pens perfect for detailed black ink drawings.",
+    "rating": 4.9,
+    "variants": "Black Ink",
     "image": "https://i.pinimg.com/736x/f6/d0/84/f6d084aa346f264a0944ae0b0ff0a13b.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Excellent Erasers That Erase Whatever You Want",
+    "price": 30,
+    "description": "Soft erasers that remove even the darkest pencil lines.",
+    "rating": 4.1,
+    "variants": "Soft Rubber",
+    "image": "https://dibujosalapiz.com/wp-content/uploads/2021/09/tipos-borradores.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Special Edition Black Drawing Pens",
+    "price": 40,
+    "description": "A stylish, limited-edition set for precision ink drawings.",
+    "rating": 4.6,
+    "variants": "Black Ink",
+    "image": "https://novicompu.vtexassets.com/arquivos/ids/168058-800-auto?v=638260890948600000&width=800&height=auto&aspect=true"
+  },
+  {
+    "id": 10,
+    "name": "Excellent Pencils That Draw Whatever You Want",
+    "price": 30,
+    "description": "Top-quality graphite pencils for smooth, easy sketching.",
+    "rating": 3.8,
+    "variants": "HB Graphite",
+    "image": "https://www.compramejormx.com/wp-content/uploads/2019/08/david-pennington-T-GjUWPW-oI-unsplash-e1565257552412-scaled.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Excellent Pencil Sharpeener",
+    "price": 130,
+    "description": "Compact and efficient, sharpens pencils in seconds.",
+    "rating": 4.4,
+    "variants": "Compact",
+    "image": "https://th.bing.com/th/id/OIP.kzcKdunwigy0G50hUPaV6gHaGE?rs=1&pid=ImgDetMain"
+  },
+  {
+    "id": 12,
+    "name": "Excellent Notebook",
+    "price": 160,
+    "description": "A premium notebook with a durable hard cover for longevity.",
+    "rating": 4.0,
+    "variants": "Hard Cover",
+    "image": "https://th.bing.com/th/id/OIP.YS-nzpOB2QX-1aNYIHtB6gHaHa?rs=1&pid=ImgDetMain"
+  },
+  {
+    "id": 13,
+    "name": "Excellent Seasors That Cut Whatever You Want",
+    "price": 20,
+    "description": "Precision scissors for effortless and accurate cuts.",
+    "rating": 4.3,
+    "variants": "Precision Tip",
+    "image": "https://th.bing.com/th/id/OIP.ZHBxS-2drrlENxo5-WK6PgHaDK?rs=1&pid=ImgDetMain"
+  },
+  {
+    "id": 14,
+    "name": "Excellent Compass That Form Whatever You Want",
+    "price": 15,
+    "description": "Solid metal compass for perfect circles every time.",
+    "rating": 4.5,
+    "variants": "Metal Body",
+    "image": "https://th.bing.com/th/id/OIP.VqXsHO7h4sXDweBPADy7EgHaHa?rs=1&pid=ImgDetMain"
+  },
+  {
+    "id": 15,
+    "name": "Excellent Ruler That Erase Whatever You Want",
+    "price": 40,
+    "description": "Transparent and flexible for easy, precise measuring.",
+    "rating": 4.7,
+    "variants": "Transparent Plastic",
+    "image": "https://i.pinimg.com/originals/b8/9b/be/b89bbe93fe23b7f8db35aa94a5a61735.jpg"
   }
 ]
